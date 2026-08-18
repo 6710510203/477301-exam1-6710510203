@@ -1,0 +1,31 @@
+/* Basic styles for Bloom Flower Shop */
+:root{
+  --accent:#b33b5a;
+  --muted:#666;
+  --bg:#fffaf6;
+  --max-width:1000px;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Segoe UI, Roboto, "Noto Sans", sans-serif;background:var(--bg);color:#222}
+body{display:flex;flex-direction:column;align-items:center}
+.container{width:100%;max-width:var(--max-width);padding:1rem}
+header{width:100%;background:linear-gradient(90deg,#ffecec, #fff);padding:1rem 0;border-bottom:2px solid #f0e6e6}
+header h1{margin:0;color:var(--accent);font-size:1.6rem}
+header p{margin:.25rem 0;color:var(--muted)}
+nav{margin-top:.5rem}
+nav a{margin-right:1rem;color:var(--accent);text-decoration:none;font-weight:600}
+main{width:100%;padding:1rem 0}
+section{background:#ffffff;border-radius:8px;padding:1rem;margin-bottom:1rem;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+section h2{margin-top:0;color:#333}
+img{max-width:100%;height:auto;border-radius:6px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:.5rem;border-bottom:1px solid #eee;text-align:left}
+form input, form button{display:block;width:100%;padding:.6rem;margin:.4rem 0;border:1px solid #e6dcdc;border-radius:6px}
+form button{background:var(--accent);color:white;border:none;cursor:pointer}
+footer{width:100%;padding:1rem 0;text-align:center;color:var(--muted);font-size:.9rem}
+@media(min-width:700px){
+  header{padding:1.25rem 0}
+  header h1{font-size:2rem}
+  .two-col{display:flex;gap:1rem}
+  .two-col > *{flex:1}
+}
