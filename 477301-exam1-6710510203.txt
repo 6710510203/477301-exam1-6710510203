@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Cake</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Happy Cake</h1>
+<p>Sweet cake for everyone</p>
+</header>
+<nav>
+<a href="#about">About</a>
+<a href="#menu">Menu</a>
+<a href="#contact">Contact</a>
+</nav>
+<main>
+<section id="about">
+<h2>About Us</h2>
+<p>Happy Cake is a small cake shop.</p>
+<p>We make fresh cakes for birthdays and special days.</p>
+<img src="images/cake.jpg" alt="Chocolate cake">
+</section>
+<section id="menu">
+<h2>Our Menu</h2>
+<table>
+<caption>Cake Menu</caption>
+<thead>
+<tr>
+<th scope="col">Cake</th>
+<th scope="col">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chocolate Cake</td>
+<td>120 THB</td>
+</tr>
+<tr>
+<td>Strawberry Cake</td>
+<td>150 THB</td>
+</tr>
+<tr>
+<td>Vanilla Cake</td>
+<td>100 THB</td>
+</tr>
+</tbody>
+</table>
+</section>
+<article class="card">
+<h2>Our Special</h2>
+<p>We make fresh cakes every day.</p>
+</article>
+<section>
+<h2>Opening Hours</h2>
+<ul>
+<li>Monday - Friday: 9:00 - 18:00</li>
+<li>Saturday: 10:00 - 17:00</li>
+<li>Sunday: Closed</li>
+</ul>
+</section>
+<section id="contact">
+<h2>Contact Us</h2>
+<form action="#" method="post">
+<fieldset>
+<legend>Contact Form</legend>
+<label for="name">Name</label>
+<input type="text" id="name" required>
+<br><br>
+<label for="email">Email</label>
+<input type="email" id="email" required>
+<br><br>
+<label for="phone">Phone</label>
+<input type="tel" id="phone">
+<br><br>
+<label for="date">Date</label>
+<input type="date" id="date">
+<br><br>
+<label for="number">Number</label>
+<input type="number" id="number" min="1" max="10">
+<br><br>
+<label>Choose Cake</label>
+<input type="radio" id="chocolate" name="cake">
+<label for="chocolate">Chocolate</label>
+<input type="radio" id="strawberry" name="cake">
+<label for="strawberry">Strawberry</label>
+<br><br>
+<label for="message">Message</label><br>
+<textarea id="message"></textarea>
+<br><br>
+<button type="submit">Send</button>
+</fieldset>
+</form>
+</section>
+</main>
+<footer>
+<p>Copyright 2026 Happy Cake</p>
+<p>ชื่อ-นามสกุล | รหัสนักศึกษา</p>
+</footer>
+</body>
+</html>
+ 
